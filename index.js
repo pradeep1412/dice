@@ -3,13 +3,13 @@ var randomno =()=>{
 }
 let player1rollvalue = 0
 player1rollvalue = randomno()
-let path1 = "/images/white_dice_"+player1rollvalue+".png";
+let path1 = "./images/white_dice_"+player1rollvalue+".png";
 
 var player1 = document.querySelector(".img1");
 player1.setAttribute("src",path1)
 let player2rollvalue = 0
 player2rollvalue = randomno()
-let path2 = "/images/dark_dice_"+player2rollvalue+".png";
+let path2 = "./images/dark_dice_"+player2rollvalue+".png";
 
 var player2 = document.querySelector(".img2");
 player2.setAttribute("src",path2);
